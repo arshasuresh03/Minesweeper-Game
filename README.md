@@ -4,14 +4,23 @@ The game is a Minesweeper-like implementation where players dig tiles to avoid h
 The step by step description:
 
 Initialization: The game starts by initializing a board with a specified dimension size and number of bombs.
+
 Board Creation: A board is created with dimensions and bombs placed randomly.
+
 Assigning Values: Values are assigned to each cell indicating the number of neighboring bombs.
+
 Game Loop: The game enters a loop until either all safe cells are uncovered or a bomb is hit.
+
 Player Input: Players input coordinates to dig, represented as row and column numbers.
+
 Digging: The game reveals the contents of the selected cell. If it's a bomb, the game ends; otherwise, it continues.
+
 Recursive Digging: If the selected cell has no neighboring bombs, adjacent cells are automatically dug.
+
 Game Over: If a bomb is hit, the game ends and displays the final state of the board.
+
 Victory: If all safe cells are uncovered without hitting a bomb, the player wins.
+
 End of Game: The game concludes with either a victory or a defeat message.
 
 
